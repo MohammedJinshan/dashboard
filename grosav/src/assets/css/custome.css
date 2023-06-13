@@ -1,0 +1,289 @@
+.logo1 {
+    padding-top: 64px;
+    text-align: center;
+}
+.font1 {
+    padding-top: 35px;
+
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 131.02%;
+    /* or 26px */
+
+    text-align: center;
+}
+
+.input1 {
+    box-sizing: border-box;
+    background: #ffffff;
+    border: 1px solid #f4f4f4;
+    box-shadow: 12px 15px 50px rgba(90, 108, 234, 0.2);
+    border-radius: 15px;
+    font-family: "Nunito";
+    font-weight: 100;
+    width: 100%;
+    font-size: 18px;
+    padding: 10px 20px 10px 10px;
+}
+.input1::placeholder {
+    color: #3b3b3b;
+    opacity: 0.3;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Nunito";
+    line-height: 19px;
+    padding: 0.5rem;
+}
+
+.input2 {
+    /* box-sizing: border-box; */
+    width: 100%;
+    background: #ffffff;
+    /* border: 1px solid #f4f4f4; */
+    box-shadow: 12px 15px 50px rgba(90, 108, 234, 0.1);
+    border-radius: 15px;
+    font-family: "Nunito";
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none !important;
+}
+.input2::placeholder {
+    color: #3b3b3b;
+    opacity: 0.3;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+.botton {
+    border: 1px solid #f4f4f4;
+    padding: 10px 20px !important;
+}
+.btn {
+    width: 100%;
+    background-color: rgb(246 137 38) !important;
+    box-sizing: border-box;
+    /* padding: 10px 15px 10px 10px !important; */
+    color: #ffffff !important;
+    font-family: "Nunito" !important;
+}
+.button1 {
+    position: fixed;
+    bottom: 30px;
+    padding: 0 15px 20px 15px;
+    width: 100%;
+}
+.font2 {
+    font-family: Nunito;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 30vw 30px 0;
+}
+.image1 {
+    height: 45px;
+    width: 45px;
+}
+
+.otpbackgrondimg {
+    display: flex;
+    background-image: image();
+    padding: 55px 30px 0;
+}
+.btn1 {
+    background-color: rgba(249, 168, 77, 0.2);
+    border-radius: 15px;
+    border: none;
+    height: 45px;
+    width: 45px;
+    padding: 7px 7px 7px 7px;
+}
+.font3 {
+    padding: 19px 30px 0;
+    font-weight: 400px;
+    font-size: 12px;
+    font-family: Nunito;
+}
+.otp {
+    padding: 10px 10px 0 40px;
+}
+
+.main:after {
+    background-image: url(../../assets/images/otp/otpbackground.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    z-index: -1;
+    opacity: 0.1;
+}
+
+.main {
+    background-image: url(../../assets/images/otp/otpbackground.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* opacity: .6; */
+}
+.button2 {
+    position: fixed;
+    bottom: 30px;
+    padding: 0px 25px 20px 25px !important;
+    width: 100%;
+}
+.signupbackground {
+    background-image: url(../images/New\ folder/loginbankground1.png);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background: linear-gradient(to bottom, rgba(0, 0, 0 0));
+    opacity: 1.2;
+    /* background: url("../images/New\ folder/loginbankground.png") no-repeat top, linear-gradient(#f4f1f3, #ffffff); */
+}
+.btn3 {
+    background-color: #ffffff;
+    border: none;
+}
+.input3 {
+    border-radius: 15px;
+    width: 100%;
+}
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 42px;
+}
+.content {
+    padding: 38px 21px 0 21px;
+}
+.input4 {
+    border-radius: 15px;
+    width: 100%;
+    border: none !important;
+    display: flex;
+    /* box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.1); */
+    background-color: #d6d6d6 !important;
+}
+.input5 {
+    border: none !important;
+    width: 100%;
+    border-radius: 15px;
+}
+.input6 {
+    border: none !important;
+    background-color: #d6d6d6 !important;
+    /* background-color: transparent !important; */
+    color: #ff9012 !important;
+    size: 5px;
+}
+/* .footer {
+    background-color: gray ;
+    border-radius: 13px;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+} */
+.rect {
+    background: linear-gradient(
+        98.81deg,
+        rgba(254, 162, 75, 0.2) -0.82%,
+        rgba(253, 136, 20, 0.1) 101.53%
+    );
+    border-radius: 12px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.store {
+    position: absolute;
+    width: 107px;
+    height: 46px;
+    left: calc(50% - 107px / 2 - 110px);
+    bottom: 26px;
+    background: linear-gradient(98.81deg, #fea24b -0.82%, #fd8814 101.53%);
+    opacity: 0.1;
+    border-radius: 12px;
+}
+
+.store-font {
+    /* font-family: "Nunito"; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #fd8814;
+    margin-top: 12px;
+    margin-left: 10px;
+    margin-right: 18px;
+}
+
+.footr-bodr {
+    border-radius: 22px 22px;
+    background: #ffffff;
+    box-shadow: 0px 0px 50px rgba(90, 108, 234, 0.1);
+    border-radius: 22px 22px 0px 0px;
+}
+
+.pagefooter {
+    padding: 10px;
+}
+.iconhome {
+    background: linear-gradient(98.81deg, #fea24b -0.82%, #fd8814 101.53%);
+    border-radius: 50%;
+}
+.font {
+    font-family: Nunito;
+    margin-top: -5px;
+}
+
+.scroll::-webkit-scrollbar {
+    /* display: none; */
+    width: 0px;
+    background: transparent;
+}
+
+.offer-btn {
+    background-color: white;
+    border-radius: 18px;
+    margin-top: 12px;
+    font-size: 12px;
+    align-items: center;
+    width: 83px;
+    height: 26px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    color: #5a595a;
+    border-color: transparent;
+}
+
+.vegan-resto {
+    font-family: "Nunito", sans-serif;
+    /* font-weight: 600; */
+    font-size: 16px;
+}
+.Rest-font {
+    font-family: Nunito;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 0.5;
+    color: #000000;
+}
+.desert-font {
+    font-family: Nunito;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 0.5;
+    color: #000000;
+}
